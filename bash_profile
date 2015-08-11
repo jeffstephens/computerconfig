@@ -11,6 +11,7 @@ PS1="$GREEN\u@\h$CLEAR:$CYAN\w$CLEAR $YELLOW\$(parse_git_branch)$CLEAR \$ "
 alias gs='git status'
 v() { /usr/bin/vagrant "$@" ;}
 g() { /usr/local/bin/git "$@" ;}
+alias lint="git status | sed -n -e 's%^.*modified:   %./%p' | grep '.php$' | xargs -n1 php -l"
 alias cls='clear'
 export PATH=~/bin:$PATH
 alias gp='git pull && git push'
