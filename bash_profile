@@ -14,6 +14,6 @@ g() { /usr/local/bin/git "$@" ;}
 alias lint="git status | sed -n -e 's%^.*modified:   %./%p' | grep '.php$' | xargs -n1 php -l"
 alias cls='clear'
 export PATH=~/bin:$PATH
-alias gp='git pull && git push'
+alias gp='git pull origin $parse_git_branch && git push origin $parse_git_branch'
 alias l='ls -l'
 
