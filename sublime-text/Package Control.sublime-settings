@@ -7,7 +7,20 @@
 	[
 		"Better CoffeeScript",
 		"BracketHighlighter",
+		"ColorPicker",
+		"Colorsublime",
+		"Cucumber",
+		"DocBlockr",
+		"Emmet",
+		"Git",
+		"GitGutter",
 		"Package Control",
+		"PackageResourceViewer",
+		"SCSS",
+		"SCSS Compiler",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-coffee",
 		"Theme - Afterglow"
 	]
 }
