@@ -38,7 +38,9 @@
 		".vagrant",
 		"vendor",
 		"application/txt",
-		"application/sql"
+		"application/sql",
+		"build",
+		"node_modules"
 	],
 	"font_size": 15.0,
 	"ignored_packages":
