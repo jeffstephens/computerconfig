@@ -27,7 +27,8 @@
 		"*.db",
 		"public/assets",
 		"public/js/libs",
-		"babynames.json"
+		"babynames.json",
+		"*.min.*"
 	],
 	"folder_exclude_patterns":
 	[
@@ -40,7 +41,10 @@
 		"application/txt",
 		"application/sql",
 		"build",
-		"node_modules"
+		"node_modules",
+		"www/app",
+		"platforms",
+		"gradleBuild"
 	],
 	"font_size": 15.0,
 	"ignored_packages":
