@@ -40,7 +40,8 @@
 		"application/txt",
 		"application/sql",
 		"build",
-		"node_modules"
+		"node_modules",
+		"www"
 	],
 	"font_size": 15.0,
 	"ignored_packages":
