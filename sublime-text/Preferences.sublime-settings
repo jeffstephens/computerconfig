@@ -42,7 +42,7 @@
 		"application/sql",
 		"build",
 		"node_modules",
-		"www/app",
+		"www",
 		"platforms",
 		"gradleBuild"
 	],

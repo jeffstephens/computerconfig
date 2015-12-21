@@ -19,4 +19,6 @@ brew cask install bettertouchtool; \
 brew cask install spotify; \
 brew cask install skype; \
 brew cask install dropbox; \
+brew cask install gfxcardstatus; \
+brew cask install flux; \
 
