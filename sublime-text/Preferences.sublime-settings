@@ -44,9 +44,10 @@
 		"node_modules",
 		"www",
 		"platforms",
-		"gradleBuild"
+		"gradleBuild",
+		"plugins"
 	],
-	"font_size": 15.0,
+	"font_size": 20.0,
 	"ignored_packages":
 	[
 		"Vintage"
