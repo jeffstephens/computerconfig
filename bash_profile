@@ -16,4 +16,14 @@ alias cls='clear'
 export PATH=~/bin:$PATH
 alias gp='git pull origin $parse_git_branch && git push origin $parse_git_branch'
 alias l='ls -l'
+alias m='cd ~/workspace/ionic_collab'
+alias gs='gulp serve'
 
+# ReadyTalk Aliases
+alias buildandroid='pushd ~/workspace/ionic_collab && say "Android build started" && ./gradlew buildAndroid && adb install -r /Users/jeffrey.stephens/workspace/ionic_collab/platforms/android/build/outputs/apk/android-armv7-debug.apk && popd && say "Android build complete"'
+alias webe2e='pushd ~/workspace/ionic_collab && say "Web End To End Tests Started" && gulp package:web && gulp e2e && popd && say "Web End To End Tests Complete"'
+
+source ~/git-completion.bash
+
+export NVM_DIR="/Users/jeffrey.stephens/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm

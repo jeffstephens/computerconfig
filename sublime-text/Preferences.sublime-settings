@@ -45,9 +45,11 @@
 		"www",
 		"platforms",
 		"gradleBuild",
+		"test/unit/coverage/report-html",
 		"plugins"
 	],
-	"font_size": 20.0,
+	"font_face": "IBM 3270 Semi-Narrow",
+	"font_size": 17.0,
 	"ignored_packages":
 	[
 		"Vintage"

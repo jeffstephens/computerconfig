@@ -9,10 +9,13 @@
 		"BracketHighlighter",
 		"ColorPicker",
 		"Colorsublime",
+		"Crontab Syntax",
 		"Cucumber",
 		"DocBlockr",
+		"EditorConfig",
 		"Focus Last Tab",
 		"Git",
+		"Git-StatusBar",
 		"GitGutter",
 		"Package Control",
 		"PackageResourceViewer",
@@ -22,6 +25,7 @@
 		"SortTabs",
 		"SublimeLinter",
 		"SublimeLinter-coffee",
+		"SublimeLinter-coffeelint",
 		"Theme - Afterglow"
 	]
 }
