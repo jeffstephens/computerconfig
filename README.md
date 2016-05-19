@@ -14,10 +14,12 @@ symbolic link to these from within Sublime's directory structure, typically some
 ```
 
 ### Installing
-*Bash Profile*
+**Bash Profile**
+
 Just run `. setup.sh` to automatically symlink the bash profile. Note that this script will not replace existing files; you have to remove them yourself first.
 
-*Sublime Text 3*
+**Sublime Text 3**
+
 1. Run Sublime Text 3
 2. [Install Package Control](https://packagecontrol.io/installation)
 3. Run `. .config-setup.sh` and restart Sublime Text 3 a few times
