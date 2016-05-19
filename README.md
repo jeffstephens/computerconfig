@@ -18,6 +18,7 @@ Just run `. setup.sh` to automatically symlink the bash profile. Note that this 
 3. Run `. .config-setup.sh` and restart Sublime Text 3 a few times
 
 **BetterTouchTool**
+
 1. Run `. brewinstall.sh` to install BetterTouchTool if you haven't already
 2. Open it and purchase/import your license
 3. Go to Preferences and find the `Import` button. Import `bettertouchtool.config`.
