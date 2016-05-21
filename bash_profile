@@ -11,7 +11,6 @@ PS1="$GREEN\u@\h$CLEAR:$CYAN\w$CLEAR $YELLOW\$(parse_git_branch)$CLEAR \$ "
 alias gs='git status'
 alias cb='parse_git_branch | cut -d '\'')'\'' -f 1 | cut -d '\''('\'' -f 2 | pbcopy'
 v() { /usr/local/bin/vagrant "$@" ;}
->>>>>>> Stashed changes
 g() { /usr/local/bin/git "$@" ;}
 alias lint="git status | sed -n -e 's%^.*modified:   %./%p' | grep '.php$' | xargs -n1 php -l"
 alias cls='clear'
