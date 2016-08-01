@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"Better CoffeeScript",
+		"BlameHighlighter",
 		"BracketHighlighter",
 		"ColorPicker",
 		"Colorsublime",
