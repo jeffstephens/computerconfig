@@ -7,17 +7,22 @@ Here's the set of files I need whenever I set up a brand new OS install.
 * `sublime-text/` contains configuration files for both Sublime Text configuration and for packages installed via [Package Control](https://packagecontrol.io/installation).
 
 ### Setup Instructions
-**Bash Profile**
+
+#### Bash Profile
 
 Just run `. setup.sh` to automatically symlink the bash profile. Note that this script will not replace existing files; you have to remove them yourself first.
 
-**Sublime Text 3**
+#### Install Software
+
+    ./brewinstall.sh
+
+#### Sublime Text 3
 
 1. Run Sublime Text 3
 2. [Install Package Control](https://packagecontrol.io/installation)
 3. Run `. .config-setup.sh` and restart Sublime Text 3 a few times
 
-**BetterTouchTool**
+#### BetterTouchTool
 
 1. Run `. brewinstall.sh` to install BetterTouchTool if you haven't already
 2. Open it and purchase/import your license
