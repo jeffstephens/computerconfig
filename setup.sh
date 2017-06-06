@@ -14,3 +14,6 @@ if [ ! -f ~/.bash_profile ]; then
 else
 	echo "Existing bash_profile found - we won't touch it."
 fi
+
+echo "Installing fonts..."
+cp fonts/* /Library/Fonts/
