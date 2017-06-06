@@ -7,17 +7,12 @@ brew tap caskroom/versions; \
 brew cask install sublime-text; \
 brew cask install google-chrome; \
 brew cask install firefox; \
-brew cask install sourcetree; \
 brew cask install sequel-pro; \
-brew cask install vagrant; \
 brew cask install virtualbox; \
 brew cask install viscosity; \
-brew cask install livereload; \
 brew cask install bettertouchtool; \
 brew cask install spotify; \
-brew cask install skype; \
 brew cask install dropbox; \
 brew cask install gfxcardstatus; \
-brew cask install flux; \
 brew cask install caffeine; \
 
