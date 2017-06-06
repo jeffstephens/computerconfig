@@ -13,6 +13,7 @@
 		"Crontab Syntax",
 		"Cucumber",
 		"DocBlockr",
+		"Dockerfile Syntax Highlighting",
 		"EditorConfig",
 		"Expression",
 		"Focus Last Tab",
@@ -33,6 +34,7 @@
 		"SublimeLinter",
 		"SublimeLinter-coffee",
 		"SublimeLinter-coffeelint",
+		"Terraform",
 		"Theme - Afterglow"
 	]
 }

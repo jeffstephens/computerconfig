@@ -50,7 +50,7 @@
 		"test/unit/coverage/report-html"
 	],
 	"font_face": "IBM 3270 Semi-Narrow",
-	"font_size": 19.0,
+	"font_size": 18.0,
 	"ignored_packages":
 	[
 		"Vintage"
