@@ -10,7 +10,7 @@ Here's the set of files I need whenever I set up a brand new OS install.
 
 #### Bash Profile
 
-Just run `. setup.sh` to automatically symlink the bash profile. Note that this script will not replace existing files; you have to remove them yourself first.
+Just run `./setup.sh` to automatically symlink the bash profile. Note that this script will not replace existing files; you have to remove them yourself first.
 
 #### Install Software
 
@@ -20,11 +20,11 @@ Just run `. setup.sh` to automatically symlink the bash profile. Note that this 
 
 1. Run Sublime Text 3
 2. [Install Package Control](https://packagecontrol.io/installation)
-3. Run `. .config-setup.sh` and restart Sublime Text 3 a few times. Ignore the error messages.
+3. Run `./config-setup.sh` and restart Sublime Text 3 a few times. Ignore the error messages.
 
 #### BetterTouchTool
 
-1. Run `. brewinstall.sh` to install BetterTouchTool if you haven't already
+1. Run `./brewinstall.sh` to install BetterTouchTool if you haven't already
 2. Open it and purchase/import your license
 3. Go to Preferences and find the `Import` button. Import `bettertouchtool.config`.
 
