@@ -1,12 +1,10 @@
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" \
 brew doctor; \
 brew install git; \
-brew tap josegonzales/php; \
-brew install php55; \
 brew tap phinze/cask; \
 brew install brew-cask; \
 brew tap caskroom/versions; \
-brew cask install sublime-text3; \
+brew cask install sublime-text; \
 brew cask install google-chrome; \
 brew cask install firefox; \
 brew cask install sourcetree; \
