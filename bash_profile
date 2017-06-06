@@ -22,5 +22,6 @@ alias l='ls -l'
 alias m='cd ~/workspace/ionic_collab'
 alias gs='gulp serve'
 
-export NVM_DIR="/Users/jeffrey.stephens/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+if [ -f ~/.bash_profile_local ]; then
+	. ~/.bash_profile_local
+fi
