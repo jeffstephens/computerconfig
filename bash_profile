@@ -19,7 +19,7 @@ alias cls='clear'
 export PATH=~/bin:$PATH
 alias gp='git pull origin $parse_git_branch && git push origin $parse_git_branch'
 alias l='ls -l'
-alias m='cd ~/workspace/ionic_collab'
+alias m='cd ~/workspace/foxden-js'
 alias gs='gulp serve'
 
 eval $(thefuck --alias)
