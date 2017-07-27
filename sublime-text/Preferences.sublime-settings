@@ -1,7 +1,7 @@
 {
 	"caret_style": "phase",
 	"color_inactive_tabs": true,
-	"color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Afterglow-monokai (SL).tmTheme",
 	"draw_white_space": "all",
 	"file_exclude_patterns":
 	[
@@ -29,7 +29,8 @@
 		"public/assets",
 		"public/js/libs",
 		"babynames.json",
-		"*.min.*"
+		"*.min.*",
+		"*.coffee.html"
 	],
 	"folder_exclude_patterns":
 	[
