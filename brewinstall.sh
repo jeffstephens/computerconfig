@@ -6,6 +6,7 @@ brew tap phinze/cask; \
 brew install brew-cask; \
 brew tap caskroom/versions; \
 brew cask install sublime-text; \
+brew cask install atom; \
 brew cask install google-chrome; \
 brew cask install firefox; \
 brew cask install sequel-pro; \
