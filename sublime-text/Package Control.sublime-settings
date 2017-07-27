@@ -10,14 +10,18 @@
 		"ColorPicker",
 		"Colorsublime",
 		"Crontab Syntax",
-		"Cucumber",
 		"DocBlockr",
+		"Dockerfile Syntax Highlighting",
 		"EditorConfig",
 		"Focus Last Tab",
 		"Git",
-		"Git-StatusBar",
 		"GitGutter",
+		"GitStatusBar",
+		"HTML-CSS-JS Prettify",
+		"Laravel Blade Highlighter",
 		"LESS",
+		"Markdown Preview",
+		"nginx",
 		"Package Control",
 		"PackageResourceViewer",
 		"SCSS",
@@ -27,6 +31,7 @@
 		"SublimeLinter",
 		"SublimeLinter-coffee",
 		"SublimeLinter-coffeelint",
+		"Terraform",
 		"Theme - Afterglow"
 	]
 }

@@ -24,6 +24,7 @@ alias gs='gulp serve'
 alias buildandroid='pushd ~/workspace/ionic_collab && say "Android build started" && ./gradlew buildAndroid && adb install -r /Users/jeffrey.stephens/workspace/ionic_collab/platforms/android/build/outputs/apk/android-armv7-debug.apk && popd && say "Android build complete"'
 alias webe2e='pushd ~/workspace/ionic_collab && say "Web End To End Tests Started" && gulp package:web && gulp e2e && popd && say "Web End To End Tests Complete"'
 
+eval "$(thefuck --alias)"
 source ~/git-completion.bash
 
 export NVM_DIR="/Users/jeffrey.stephens/.nvm"
