@@ -28,7 +28,6 @@ if [ -f ~/.bash_profile_local ]; then
 	. ~/.bash_profile_local
 fi
 eval "$(thefuck --alias)"
-source ~/git-completion.bash
 
 export NVM_DIR="/Users/jeffrey.stephens/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
