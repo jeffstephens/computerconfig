@@ -1,25 +1,17 @@
 #!/bin/bash
 
-if [ ! -f ~/.ssh/config ]; then
-	echo "Creating basic SSH config file..."
-	cp ssh-config ~/.ssh/config
+echo "Detecting operating system..."
+
+# borrowed from https://stackoverflow.com/a/394247
+
+unamestr=`uname`
+
+if [[ "$unamestr" == 'Linux' ]]; then
+  echo "Linux detected... running setup script"
+  ./linux-setup.sh
+elif [[ "$unamestr" == 'Darwin' ]]; then
+  echo "Mac detected... running setup script"
+  ./mac-setup.sh
 else
-	echo "Existing SSH config file found - we won't touch it."
+  echo "Failed to detect OS by uname ($unamestr)"
 fi
-
-if [ ! -f ~/.bash_profile ]; then
-	echo "Symlinking bash_profile..."
-	ln -s "$(pwd)"/bash_profile ~/.bash_profile
-	. ~/.bash_profile
-else
-	echo "Existing bash_profile found - we won't touch it."
-fi
-
-if [ ! -f ~/.bash_profile_local ]; then
-	touch ~/.bash_profile_local
-	echo "# Put machine-specific commands in here" >> ~/.bash_profile_local
-	echo "Created ~/.bash_profile_local for machine-specific commands"
-fi
-
-echo "Installing fonts..."
-cp fonts/* /Library/Fonts/
