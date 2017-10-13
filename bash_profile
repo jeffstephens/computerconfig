@@ -34,8 +34,7 @@ fi
 # checkout a branch given a unique regex pattern
 cob() {
   if [ -z $1 ]; then
-    echo "Usage: $0 <pattern to match git branch>"
-    echo ""
+    echo "Usage: cob <pattern to match git branch>"
     echo "Switch to a git branch based on a greppable pattern. Must specify an umambiguous pattern."
     return 1
   fi
