@@ -23,6 +23,12 @@ Just run `./setup.sh` to automatically symlink the bash profile. Note that this 
 2. [Install Package Control](https://packagecontrol.io/installation)
 3. Run `./config-setup.sh` and restart Sublime Text 3 a few times. Ignore the error messages.
 
+#### Atom
+
+1. Run Atom for the first time to create its directory structure
+2. Close Atom
+3. Run (or rerun) `./setup.sh`
+
 #### BetterTouchTool
 
 1. Run `./brewinstall.sh` to install BetterTouchTool if you haven't already
