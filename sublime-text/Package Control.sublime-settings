@@ -2,6 +2,15 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"BracketHighlighter",
+		"Colorsublime",
+		"Dockerfile Syntax Highlighting",
+		"GitGutter",
+		"HTML-CSS-JS Prettify",
+		"Laravel Blade Highlighter",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"Terraform"
 	],
 	"installed_packages":
 	[
@@ -20,16 +29,14 @@
 		"GitGutter",
 		"GitStatusBar",
 		"HTML-CSS-JS Prettify",
+		"JSON Reindent",
 		"Laravel Blade Highlighter",
 		"LESS",
-		"Markdown Preview",
-		"nginx",
-		"GitStatusBar",
-		"JSON Reindent",
 		"LocalVariable",
 		"Markdown Preview",
 		"Method",
 		"Mustache",
+		"nginx",
 		"Package Control",
 		"PackageResourceViewer",
 		"SCSS",

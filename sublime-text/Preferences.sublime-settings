@@ -52,6 +52,15 @@
 	"font_size": 18.0,
 	"ignored_packages":
 	[
+		"BracketHighlighter",
+		"Colorsublime",
+		"Dockerfile Syntax Highlighting",
+		"GitGutter",
+		"HTML-CSS-JS Prettify",
+		"Laravel Blade Highlighter",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"Terraform",
 		"Vintage"
 	],
 	"paths":
