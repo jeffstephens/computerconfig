@@ -2,6 +2,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew doctor; \
 brew install git; \
 brew install thefuck; \
+brew install tree; \
 brew tap phinze/cask; \
 brew install brew-cask; \
 brew tap caskroom/versions; \
