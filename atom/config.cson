@@ -1,5 +1,8 @@
 "*":
   core:
+    disabledPackages: [
+      "whitespace"
+    ]
     telemetryConsent: "no"
   editor: {}
   "exception-reporting":
