@@ -22,4 +22,5 @@ brew cask install caffeine; \
 brew cask install slack; \
 brew cask install docker; \
 brew cask install aerial; \
+brew cask install alfred;
 
