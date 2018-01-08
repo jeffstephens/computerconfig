@@ -67,7 +67,7 @@ if [[ "$unamestr" == 'Linux' ]]; then
   alias cb='parse_git_branch | cut -d '\'')'\'' -f 1 | cut -d '\''('\'' -f 2 | xclip -selection clipboard'
 elif [[ "$unamestr" == 'Darwin' ]]; then
   eval "$(thefuck --alias)"
-  export NVM_DIR="/Users/jeffrey.stephens/.nvm"
+  export NVM_DIR="/Users/$(whoami)/.nvm"
   [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
   alias cb='parse_git_branch | cut -d '\'')'\'' -f 1 | cut -d '\''('\'' -f 2 | pbcopy'
