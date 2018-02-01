@@ -3,7 +3,31 @@ Change Log
 All notable changes to the project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-[Unpublished]: https://github.com/file-icons/atom/compare/v2.1.14...HEAD
+[Unpublished]: https://github.com/file-icons/atom/compare/v2.1.16...HEAD
+
+
+[v2.1.16] - 2018-01-19
+----------------------
+### Fixed
+- [[`#490`][]]: Background resource deletion not updating icon cache
+- Subtle path-handling errors in Nuclide (see [`Atom-FS#1`](https://github.com/Alhadis/Atom-FS/pull/1))
+
+[v2.1.16]: https://github.com/file-icons/atom/releases/tag/v2.1.16
+[`#490`]: https://github.com/file-icons/atom/issues/490
+
+
+[v2.1.15] - 2017-12-15
+----------------------
+### Added
+- **New icons:** Robots (`robots.txt`)
+- **Support:** AppVeyor (`.appveyor.yml`), Bundler (`.gemfile`), Data (`.hson`)
+
+### Fixed
+- [[`#685`][]]: Error thrown when displaying MRU list with a blank tab open
+
+[v2.1.15]: https://github.com/file-icons/atom/releases/tag/v2.1.15
+[`#685`]: https://github.com/file-icons/atom/issues/685
+
 
 
 [v2.1.14] - 2017-11-20

@@ -1,0 +1,49 @@
+'name': 'Crontab'
+'scopeName': 'source.crontab'
+'fileTypes': [
+  'crontab'
+  'cron'
+]
+'patterns' : [
+  {
+    'match': '^\\s*([\\*0-9,\\-\\/]+)\\s+([\\*0-9,\\-\\/]+)\\s+([\\*0-9,\\-\\/]+)\\s+([\\*0-9,\\-\\/]+)\\s+([\\*0-9,\\-\\/]+)\\s+(.*)$'
+    'name': 'statement.crontab'
+    'captures':
+      '1':
+        'name': 'meta.minute.crontab'
+      '2':
+        'name': 'meta.hour.crontab'
+      '3':
+        'name': 'meta.dayofmonth.crontab'
+      '4':
+        'name': 'meta.month.crontab'
+      '5':
+        'name': 'meta.dayofweek.crontab'
+      '6':
+        'name': 'string.command.crontab'
+  }
+  {
+    'match': '^\\s*(@reboot|@yearly|@annually|@monthly|@weekly|@daily|@midnight|@hourly)\\s+(.*)$'
+    'name': 'statement.crontab'
+    'captures':
+      '1':
+        'name': 'meta.constant.crontab'
+      '2':
+        'name': 'string.command.crontab'
+  }
+  {
+    'match': '^#.*$'
+    'name': 'comment.crontab'
+  }
+  {
+    'match': "^\\s*([a-zA-Z0-9_]+)\\s*(=)\\s*(.*)$"
+    'name': 'environment.crontab'
+    'captures':
+      '1':
+        'name': 'entity.key.crontab'
+      '2':
+        'name': 'keyword.operator.crontab'
+      '3':
+        'name': 'entity.variable.crontab'
+  }
+]
