@@ -19,15 +19,16 @@ NORMAL_CLEAR="\033[0;00m"
 
 alias gs='git status'
 g() { "$(which git)" "$@" ;}
-alias lint="git status | sed -n -e 's%^.*modified:   %./%p' | grep '.php$' | xargs -n1 php -l"
-alias cls='clear'
+
+# set kubectl namespace
+ns() { $(which kubectl) config set-context $(kubectl config current-context) --namespace=$@ ;}
+
 export PATH=~/bin:$PATH
 alias gp='git pull origin $parse_git_branch && git push origin $parse_git_branch'
 alias l='ls -l'
-alias m='cd ~/workspace/foxden-js'
 
 if [ -f ~/.bash_profile_local ]; then
-	. ~/.bash_profile_local
+  . ~/.bash_profile_local
 fi
 
 # checkout a branch given a unique regex pattern
