@@ -23,9 +23,28 @@ g() { "$(which git)" "$@" ;}
 # set kubectl namespace
 ns() { $(which kubectl) config set-context $(kubectl config current-context) --namespace=$@ ;}
 
-export PATH=~/bin:$PATH
+export PATH=/usr/local/lib/ruby/gems/2.6.0/bin:~/bin:$PATH
 alias gp='git pull origin $parse_git_branch && git push origin $parse_git_branch'
-alias l='ls -l'
+alias l='ls -al'
+
+# better bash history - https://sanctum.geek.nz/arabesque/better-bash-history/
+# append rather than overwriting after each terminal session
+shopt -s histappend
+
+# transform multi-line commands to a single line in bash history
+shopt -s cmdhist
+
+HISTFILESIZE=10000
+HISTSIZE=10000
+
+# ignore duplicates and lines that start with whitespace
+HISTCONTROL=ignoreboth
+
+HISTIGNORE='ls:bg:fg:history'
+HISTTIMEFORMAT='%F %T '
+
+# persist bash history after each command
+PROMPT_COMMAND='history -a'
 
 if [ -f ~/.bash_profile_local ]; then
   . ~/.bash_profile_local
@@ -73,3 +92,7 @@ elif [[ "$unamestr" == 'Darwin' ]]; then
 
   alias cb='parse_git_branch | cut -d '\'')'\'' -f 1 | cut -d '\''('\'' -f 2 | pbcopy'
 fi
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
