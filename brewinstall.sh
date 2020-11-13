@@ -5,7 +5,6 @@ brew install thefuck; \
 brew install tree; \
 brew install wget; \
 brew install watch; \
-brew install brew-cask; \
 brew cask install google-chrome; \
 brew cask install firefox; \
 brew cask install virtualbox; \
