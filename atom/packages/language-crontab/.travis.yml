@@ -1,6 +1,0 @@
-language: 'objective-c'
-script: 'curl -s https://raw.githubusercontent.com/atom/ci/master/build-package.sh | sh'
-sudo: false
-depth: 10
-notifications:
-  email: false
