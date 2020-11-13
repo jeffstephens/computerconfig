@@ -17,6 +17,10 @@ Just run `./setup.sh` to automatically symlink the bash profile. Note that this 
 
     ./brewinstall.sh
 
+#### Non-Brew Software
+
+- [Clusterverse](https://itunes.apple.com/us/app/clusterverse/id1462237022?mt=12)
+
 #### Sublime Text 3
 
 1. Run Sublime Text 3
