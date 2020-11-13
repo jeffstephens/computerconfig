@@ -8,14 +8,10 @@ brew install watch; \
 brew tap phinze/cask; \
 brew install brew-cask; \
 brew tap caskroom/versions; \
-brew cask install sublime-text; \
-brew cask install atom; \
 brew cask install google-chrome; \
 brew cask install firefox; \
-brew cask install sequel-pro; \
 brew cask install virtualbox; \
 brew cask install viscosity; \
-brew cask install bettertouchtool; \
 brew cask install spotify; \
 brew cask install dropbox; \
 brew cask install gfxcardstatus; \
@@ -25,5 +21,6 @@ brew cask install docker; \
 brew cask install aerial; \ # Aerial screensaver from Apple TV
 brew cask install alfred; \
 brew cask install visual-studio-code; \
-brew cask install postman;
+brew cask install postman; \
+brew cask install postico;
 
