@@ -22,5 +22,6 @@ brew cask install postman; \
 brew cask install postico; \
 brew cask install little-snitch; \
 brew cask install spectacle; \
-brew cask install keybase;
+brew cask install keybase; \
+brew cask install zoomus;
 
