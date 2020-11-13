@@ -20,5 +20,6 @@ brew cask install aerial; \ # Aerial screensaver from Apple TV
 brew cask install alfred; \
 brew cask install visual-studio-code; \
 brew cask install postman; \
-brew cask install postico;
+brew cask install postico; \
+brew cask install little-snitch;
 
