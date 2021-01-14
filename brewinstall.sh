@@ -5,23 +5,22 @@ brew install thefuck; \
 brew install tree; \
 brew install wget; \
 brew install watch; \
-brew cask install google-chrome; \
-brew cask install firefox; \
-brew cask install virtualbox; \
-brew cask install viscosity; \
-brew cask install spotify; \
-brew cask install dropbox; \
-brew cask install gfxcardstatus; \
-brew cask install caffeine; \
-brew cask install slack; \
-brew cask install docker; \
-brew cask install aerial; \ 
-brew cask install alfred; \
-brew cask install visual-studio-code; \
-brew cask install postman; \
-brew cask install postico; \
-brew cask install little-snitch; \
-brew cask install spectacle; \
-brew cask install keybase; \
-brew cask install zoomus;
+brew install --cask firefox; \
+brew install --cask virtualbox; \
+brew install --cask viscosity; \
+brew install --cask spotify; \
+brew install --cask dropbox; \
+brew install --cask gfxcardstatus; \
+brew install --cask caffeine; \
+brew install --cask slack; \
+brew install --cask docker; \
+brew install --cask aerial; \ 
+brew install --cask alfred; \
+brew install --cask visual-studio-code; \
+brew install --cask postman; \
+brew install --cask postico; \
+brew install --cask little-snitch; \
+brew install --cask spectacle; \
+brew install --cask keybase; \
+brew install --cask zoom;
 
