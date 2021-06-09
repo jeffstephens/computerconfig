@@ -19,6 +19,7 @@ NORMAL_CLEAR="\033[0;00m"
 
 alias gs='git status'
 g() { "$(which git)" "$@" ;}
+k() { "$(which kubectl)" "$@" ;}
 
 # set kubectl namespace
 ns() { $(which kubectl) config set-context $(kubectl config current-context) --namespace=$@ ;}
