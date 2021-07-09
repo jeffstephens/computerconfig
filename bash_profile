@@ -97,3 +97,4 @@ fi
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
+eval "$(/opt/homebrew/bin/brew shellenv)"
