@@ -47,6 +47,8 @@ HISTTIMEFORMAT='%F %T '
 # persist bash history after each command
 PROMPT_COMMAND='history -a'
 
+eval "$(starship init bash)"
+
 if [ -f ~/.bash_profile_local ]; then
   . ~/.bash_profile_local
 fi
