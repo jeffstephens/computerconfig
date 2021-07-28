@@ -20,3 +20,9 @@ disabled = true
 [git_metrics]
 disabled = false
 
+[username]
+format = "[$user](yellow)@"
+
+[hostname]
+format = "[$hostname](bg:purple fg:white) in "
+
