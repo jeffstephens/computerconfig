@@ -21,5 +21,17 @@ if [ ! -f ~/.bash_profile_local ]; then
 	echo "Created ~/.bash_profile_local for machine-specific commands"
 fi
 
+if [ ! -d ~/.config ]; then
+	echo "Creating ~/.config directory"
+fi
+
+if [ ! -f ~/.config/starship.toml ]; then
+	echo "Symlinking starship.toml..."
+	ln -s "$(pwd)"/starship.toml ~/.config/starship.toml
+	. ~/.bash_profile
+else
+	echo "Existing starship.toml found - we won't touch it."
+fi
+
 echo "Installing fonts..."
 cp fonts/* /Library/Fonts/
