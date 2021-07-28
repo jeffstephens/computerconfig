@@ -1,6 +1,7 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 brew doctor; \
 brew install git; \
+brew install starship; \
 brew install thefuck; \
 brew install tree; \
 brew install wget; \
@@ -14,7 +15,7 @@ brew install --cask gfxcardstatus; \
 brew install --cask caffeine; \
 brew install --cask slack; \
 brew install --cask docker; \
-brew install --cask aerial; \ 
+brew install --cask aerial; \
 brew install --cask alfred; \
 brew install --cask visual-studio-code; \
 brew install --cask postman; \
