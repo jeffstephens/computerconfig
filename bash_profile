@@ -20,6 +20,8 @@ NORMAL_RED="\033[0;31m"
 NORMAL_CLEAR="\033[0;00m"
 
 alias gs='git status'
+alias vim='nvim'
+alias vi='nvim'
 g() { "$(which git)" "$@" ;}
 k() { "$(which kubectl)" "$@" ;}
 
