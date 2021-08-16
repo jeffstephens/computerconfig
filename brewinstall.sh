@@ -6,6 +6,7 @@ brew install thefuck; \
 brew install tree; \
 brew install wget; \
 brew install watch; \
+brew install nvim; \
 brew install --cask firefox; \
 brew install --cask viscosity; \
 brew install --cask spotify; \
