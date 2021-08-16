@@ -17,7 +17,7 @@ brew install --cask visual-studio-code; \
 brew install --cask postman; \
 brew install --cask postico; \
 brew install --cask little-snitch; \
-brew install --cask spectacle; \
+brew install --cask rectangle; \
 brew install --cask keybase; \
 brew install --cask zoom;
 
